@@ -1,5 +1,5 @@
 
-public class Car {
+public class Car implements Convert {
 
     private String name;
     private int age;
@@ -23,5 +23,9 @@ public class Car {
 
     public int getAge() {
         return age;
+    }
+
+    public String convert() {
+        return "Car data";
     }
 }
